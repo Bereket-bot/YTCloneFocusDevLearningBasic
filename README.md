@@ -2,6 +2,7 @@
 ## 📸 Screenshots
 
 ### Home Page
-![Home](screenshot/home.png)
+![Home](screenshots/home.png)
+
 
 
