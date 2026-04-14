@@ -3,7 +3,22 @@
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: aliceblue;
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(228,228,228);
 
+}
+.sidebar{
+    position: fixed;
+    left:0;
+    bottom:0;
+    top:0;
+    background-color: aliceblue;
 }
 .hum-menu{
     height:24px;
@@ -16,7 +31,7 @@
 .search{
     height:40px;
     margin-top: 4px;
-    /* width: 100%; */
+    width: 100%; 
 }
 .left-section{
   
@@ -24,6 +39,20 @@
     display:flex;
     align-items: center;
 }
+.icc{
+    height:30px;
+    margin-left:10px;
+    margin-right:10px;
+
+   
+}
+.nw{
+    height:30px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius: 50%;
+}
+
 .center-section{
   
   
@@ -31,10 +60,15 @@
     margin-left:70px;
     margin-right: 35px;
     max-width:500px;
-    /* align-items: center; */
+    display: flex;
+    align-items: center;
 }
 .right-section{
     
-    background-color:rgb(4, 165, 31);
-    width:200px;
+    
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink:0;
 }
