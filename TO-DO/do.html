@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TO-DO List</title>
+    <style>
+        .oc{
+            background-color: rgb(255, 255, 255);
+            border: 2px;
+            border-radius: 5px;
+            padding: 5px;
+            box-shadow: 0 2px 4px rgb(82, 82, 82);
+            color:rgb(70, 70, 70);
+            width:180px;
+            height: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            
+        }
+        .check{
+            width: 35px;
+            height: 35px;
+            border-radius: 25px;
+            margin-right: 10px;
+            
+        }
+        .list{
+            font-family: Arial, sans-serif;
+            color: rgb(41, 40, 40);
+            /* margin-left: 3px; */
+            font-size: larger;
+            font-weight: bold;
+          
+        }
+        .stay{
+            font-family: Arial, sans-serif;
+            color: rgb(82, 82, 82);
+            margin-left: 3px;
+            margin-top:0;
+            width: 300px;
+            font-size: medium;
+        }
+        .add{
+            background-color: rgb(228, 237, 244);
+            border: 2px;
+            border-radius: 5px;
+            padding: 5px;
+            box-shadow: 0 2px 4px rgb(82, 82, 82);
+            border-color: blue;
+            width:480px;
+            color:black;
+            height: 40px;
+            border-radius: 10px;
+           
+            margin-right: 10px;
+        }
+        .add:active{
+            border:2px;
+            
+
+        }
+        .plus{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            font-weight: bold;
+            color:rgb(255, 255, 255);
+            background-color: rgb(47, 47, 237);
+            border-radius: 10px;
+            opacity: 1;
+            
+            border: none;
+            padding-left: 20px;
+            
+            width: 60px;
+            height:50px;
+
+
+        }
+    </style>
+</head>
+<body style="background-color:rgb(228, 237, 244)
+                     ">
+    <div style=" 
+           align-items: center;
+           margin-right:40px;
+           justify-content: center;
+          
+          display: grid;
+          grid-template-columns: 50px 200px;
+          flex-direction: column;">
+          
+
+        <img class="check" src="check.jpg">
+        <h2 class="list">TO-DO  List</h2>
+        <p class="stay">Stay organized and productive</p>
+    </div>
+    <div  style=" 
+           align-items: center;
+           /* z-index:200; */
+           
+           
+           justify-content: center;
+            padding-left: 35px;
+          
+          display: flex;
+          grid-template-columns: 200px 50px;
+          flex-direction: row;
+          margin-top:20px;
+        margin-right:20px;">
+          
+        <input class="add" type="text" placeholder="Add a new task" >
+        <input class="plus" type="text" style="color: white;" placeholder="+ Add">
+    </div>
+    <div style="
+        padding-top: 26px;    
+        display: flex;
+        flex-direction: row; 
+        grid-template-columns: 100px 100px 100px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 35px;
+        column-gap:15px;
+        margin-right:20px;
+         
+       
+        ">
+        <button class="oc">Active</button>
+        <button class="oc">Completed</button>
+        <button class="oc">Deleted</button>
+        
+    </div>
+    
+    
+</body>
+</html>
